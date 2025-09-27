@@ -1,19 +1,19 @@
 /* Base Styles and Variables */
 :root {
     /* Main color palette */
-    --primary-color: #00e5a0; /* Slightly less saturated teal for better readability */
-    --primary-dark: #00c28a; /* Darker shade for hover states */
-    --primary-light: #7fffcf; /* Lighter shade for accents */
+    --primary-color: #ff0000; /* Slightly less saturated teal for better readability */
+    --primary-dark: #ff0000; /* Darker shade for hover states */
+    --primary-light: #ff0000; /* Lighter shade for accents */
     
     /* Secondary colors */
-    --secondary-color: #0a84ff; /* Blue */
-    --secondary-dark: #0066cc; /* Darker blue */
-    --secondary-light: #66b3ff; /* Lighter blue */
+    --secondary-color: #000000; /* Blue */
+    --secondary-dark: #000000; /* Darker blue */
+    --secondary-light: #000000; /* Lighter blue */
     
     /* Accent colors */
-    --accent-color: #ff3860; /* Red accent */
+    --accent-color: #ff0000; /* Red accent */
     --accent-dark: #e61a4d; /* Darker red */
-    --accent-light: #ff8fa3; /* Lighter red */
+    --accent-light: #ff0000; /* Lighter red */
     
     /* Additional accent for variety */
     --accent-purple: #9c6eff; /* Purple accent */
@@ -24,7 +24,7 @@
     --dark-gradient: linear-gradient(135deg, var(--dark-color) 0%, var(--darker-color) 100%);
     
     /* Text colors */
-    --light-color: #f0f0f0;
+    --light-color: #ffffff;
     --light-muted: #c0c0c0; /* For secondary text */
     
     /* Typography */
@@ -776,7 +776,7 @@ nav ul li a.active::after {
     color: var(--light-color);
     font-size: 1.2rem;
     transition: all 0.3s ease;
-    border: 1px solid rgba(0, 255, 170, 0.3);
+    border: 1px solid rgb(235, 0, 0);
     position: relative;
     overflow: hidden;
 }
