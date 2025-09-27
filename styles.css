@@ -43,6 +43,14 @@
     --loading-duration: 3s; /* Duration for the loading animation */
 }
 
+.certifications h3{
+    text-align: center;
+}
+
+.education h3{
+    text-align: center;
+}
+
 /* Minimal Loading Screen Styles */
 #loading-screen {
     position: fixed;
@@ -2395,3 +2403,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
